@@ -4,7 +4,7 @@ name: 'devopsevd/gcloudterraform:1.0'
 entrypoint: '/bin/bash'
 args:
 '-c'
-|
+ |
 if [ $_FOLDER_NAME]; then
 cd $ FOLDER_NAME'
 fi
